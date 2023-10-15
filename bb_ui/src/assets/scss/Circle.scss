@@ -1,0 +1,43 @@
+@font-face {
+  font-family: "Donalia";
+  src: url("../fonts/Donalia/Donalia.otf") format("opentype"),
+    url("../fonts/Donalia/Donalia.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Jost";
+  src: url("../fonts/Jost/Jost-VariableFont_wght.ttf") format("truetype"),
+    url("../fonts/Jost/Jost-Italic-VariableFont_wght.ttf") format("truetype");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.circle {
+  .container {
+    background-color: #FEFEFA;
+    height: 80vh;
+    border-radius: 1rem;
+  }
+
+  .camera {
+    .cap-area {
+      padding: 2rem;
+      height: 70vh;
+    }
+  }
+
+  .gallery {
+      padding: 1.25rem;
+      overflow-y: scroll;
+
+      .images {
+        margin-bottom: 2rem;
+
+        h5 {
+          text-align: center;
+        }
+      }
+  }
+}
